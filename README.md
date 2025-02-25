@@ -1,2 +1,2 @@
-# rapid_organoid_imaging
-Repo of COSI paper Event-based Rapid Organoid Imaging
+# Rapid Organoid Imaging
+Repo of paper Event-based Rapid Organoid Imaging
