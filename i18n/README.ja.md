@@ -1,37 +1,41 @@
 [English](../README.md) · [العربية](README.ar.md) · [Español](README.es.md) · [Français](README.fr.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Tiếng Việt](README.vi.md) · [中文 (简体)](README.zh-Hans.md) · [中文（繁體）](README.zh-Hant.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
 
+
+[![LazyingArt banner](https://github.com/lachlanchen/lachlanchen/raw/main/figs/banner.png)](https://github.com/lachlanchen/lachlanchen/blob/main/figs/banner.png)
+
 # Rapid Organoid Imaging
 
-![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-![Project Type](https://img.shields.io/badge/Type-Paper%20Companion-informational)
-![Status](https://img.shields.io/badge/Status-Scaffolded-lightgrey)
-![Docs](https://img.shields.io/badge/Docs-README-brightgreen)
-![i18n](https://img.shields.io/badge/i18n-Enabled-00A86B)
+![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-2f80ed?style=flat-square&logo=apache)
+![Project Type](https://img.shields.io/badge/Type-Paper%20Companion-6366f1?style=flat-square&logo=readme)
+![Status](https://img.shields.io/badge/Status-Scaffolded-d97706?style=flat-square)
+![Docs](https://img.shields.io/badge/Docs-README-0f766e?style=flat-square&logo=github)
+![i18n](https://img.shields.io/badge/i18n-Enabled-0f766e?style=flat-square&logo=googletranslate)
+![Repository](https://img.shields.io/badge/Code-Scaffold%20Only-cbd5e1?style=flat-square)
 
-> Event-based Rapid Organoid Imaging 論文のリポジトリ。
+> Event-based Rapid Organoid Imaging の論文に関する補助リポジトリです。
 
-## 概要
+## 🔍 概要
 
-このリポジトリは現在、**Event-based Rapid Organoid Imaging** の論文コンパニオンとして構成されています。
+このリポジトリは現在、**Event-based Rapid Organoid Imaging** の論文補完リポジトリとして機能しています。
 
-このドラフト時点では、ライセンス、除外ルール、ドキュメントの土台は含まれていますが、ソースコード、パッケージ、スクリプト、実験アセットはまだ追跡対象として追加されていません。
+この草案時点では、ライセンス、除外ルール、ドキュメントの雛形があり、追跡対象のソースコード、パッケージ、スクリプト、実験アセットはまだありません。
 
 | スナップショット | 現在の状態 |
 |---|---|
-| スコープ | 論文コンパニオンリポジトリ |
-| 主な成果物 | ドキュメントのスキャフォールド |
-| コード公開状況 | 追跡対象の実装ファイルは未追加 |
-| 多言語対応準備 | `i18n/` ディレクトリあり |
+| スコープ | 論文補完リポジトリ |
+| 主要成果物 | ドキュメント雛形 |
+| コード可用性 | 追跡対象の実装ファイルは未作成 |
+| 多言語準備 | `i18n/` ディレクトリが存在 |
 
-## 特徴
+## ✨ 特徴
 
-- 論文 *Event-based Rapid Organoid Imaging* の正準プロジェクトスタブ。
+- 論文 **Event-based Rapid Organoid Imaging** の正規プロジェクト雛形。
 - Apache 2.0 ライセンスを同梱。
-- Python 指向の `.gitignore` テンプレートがあり、今後 Python ツール群が追加される可能性を示唆。
-- 多言語 README 用の `i18n/` ディレクトリを配置済み。
+- Python向け `.gitignore` テンプレートを含み、将来のPythonツール利用を想定。
+- 多言語 README 用に `i18n/` ディレクトリが存在。
 
-## プロジェクト構成
+## 🧱 プロジェクト構成
 
 ```text
 RapidOrganoidImaging/
@@ -42,122 +46,129 @@ RapidOrganoidImaging/
 └── .auto-readme-work/
 ```
 
-注記:
-- `.auto-readme-work/` はパイプライン用ワークスペースで、生成された補助アーティファクトが含まれる場合があります。
-- 現在、リポジトリ直下で追跡されているファイルは `README.md`、`LICENSE`、`.gitignore` です。
-- `i18n/` は存在しますが、言語別 README はまだ生成待ちの場合があります。
+注:
+- `.auto-readme-work/` はパイプラインの作業領域で、生成ヘルパー成果物を含む場合があります。
+- 現在ルートで追跡されているファイルは `README.md`、`LICENSE`、`.gitignore` の3つです。
+- `i18n/` は存在しますが、言語別 README はまだ生成待ちの可能性があります。
 
-## 前提条件
+## 🧰 前提条件
 
-現時点での最小前提条件:
+現在の最低限の前提条件:
 
 - `git`（クローンと更新追跡のため）
-- 任意: Python ツールチェーン（`python`、`pip`、仮想環境）。コード追加時に利用
+- 任意: Pythonツール（`python`、`pip`、仮想環境）が必要になる場合（将来コードが追加されたとき）
 
-現状、追跡中のマニフェストには厳密な実行時依存関係は定義されていません。
+追跡されたマニフェストに、厳密な実行時依存はまだ宣言されていません。
 
-## インストール
+## ⬆️ インストール
 
 ```bash
 git clone <your-repository-url>
 cd RapidOrganoidImaging
 ```
 
-Python コードが追加された場合、一般的な環境セットアップ例:
+Pythonコードが追加された場合の一般的な環境構築例は以下です。
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 ```
 
-前提に関する注記: 現在は依存関係マニフェストが追跡されていないため、依存関係インストール手順はまだ定義されていません。
+前提: 依存関係のインストールコマンドは、現在依存マニフェストが追跡されていないため未定義です。
 
-## 使い方
+## 🚀 使用方法
 
-現在の利用方法はドキュメント中心です:
+現在の使用方法はドキュメント優先です。
 
-- `README.md` でプロジェクト範囲と更新内容を確認する。
+- `README.md` でプロジェクトのスコープと更新内容を確認する。
 - 関連論文タイトル **Event-based Rapid Organoid Imaging** を参照する。
-- 再現可能なスクリプト、データセット、モデル/推論コードが追加される今後のコミットを確認する。
+- 再現可能なスクリプト、データセット、モデル/推論コードを追加するための今後のコミットを確認する。
 
-現時点では実行可能なエントリーポイントが追跡されていないため、提示できる実行コマンドはありません。
+実行可能エントリポイントはまだ追跡されていないため、この時点では実行コマンドを提供できません。
 
-## 設定
+## 🛠️ 設定
 
-現在、設定ファイルは定義されていません（例: 追跡コード内に `.env.example`、`config.yaml`、CLI 引数スキーマなし）。
+現在、設定ファイルはまだ定義されていません（例えば、追跡済みコード内に `.env.example`、`config.yaml`、CLI引数のスキーマはありません）。
 
-設定が導入された際は、このセクションに以下を記載してください:
+設定が追加される際は、このセクションで以下を記載します。
 
 - 必須環境変数
-- データセット/入力パス
-- 出力先
-- ハードウェア/実行時オプション
+- データセット / 入力パス
+- 出力先の場所
+- ハードウェア / 実行環境オプション
 
-## 例
+## 🧪 例
 
-現時点では実行可能なサンプルはまだコミットされていません。
+現時点で実行可能な例は登録されていません。
 
-今後追加予定のサンプルカテゴリ（コード追加後に反映）:
+コード追加後に充実予定の例カテゴリ:
 
-- データ準備 / ロード
+- データ準備 / 読み込み
 - イベントストリーム処理
-- オルガノイド画像推論または解析ワークフロー
-- 結果の可視化/エクスポート
+- オルガノイド画像推論または分析ワークフロー
+- 結果の可視化 / エクスポート
 
-## 開発メモ
+## 🧩 開発ノート
 
-- 既存の `.gitignore` は包括的な Python テンプレートで、一般的な仮想環境/ビルド/テスト成果物をすでに除外しています。
-- CI ワークフロー、フォーマッタ設定、テストスイートはまだ追跡されていません。
-- `i18n/` は存在し、言語別 README の配置準備ができています。
+- 既存の `.gitignore` は汎用的なPythonテンプレートで、一般的な仮想環境やビルド・テストのアーティファクトをすでに除外しています。
+- CIワークフロー、フォーマッタ設定、テストスイートはまだ追跡されていません。
+- `i18n/` が存在し、言語別 README 用に準備済みです。
 
-## トラブルシューティング
+## 🛠️ トラブルシューティング
 
-### リポジトリをクローンしたのにコードがありません
+### リポジトリをクローンしたがコードが存在しない
 
-これは現在のリポジトリ状態では想定どおりです。現在は論文コンパニオンのスキャフォールドとして機能しています。
+現在のリポジトリ状態としては想定内です。現時点ではこのリポジトリは論文補完の雛形として動作しています。
 
-### 言語リンクが未作成のファイルを指していることがあります
+### 言語リンクがまだ存在しないファイルを指している
 
-多言語 README が生成される前は発生し得ます。言語ナビゲーション行は、i18n 構造の一貫性を保つために意図的に保持されています。
+多言語 README ファイルが生成される前の段階で起こり得ます。言語ナビゲーション行は、多言語構成を一貫させるために意図的に保持されています。
 
-### インストール要件が見つかりません
+### インストール要件が見つからない
 
-依存関係マニフェスト（例: `requirements.txt`、`pyproject.toml`、`environment.yml`）はまだ追跡されていません。
+依存関係マニフェスト（例: `requirements.txt`、`pyproject.toml`、`environment.yml`）がまだ追跡されていません。
 
-## ロードマップ
+## 🧭 ロードマップ
 
-段階的に予定している改善:
+計画中の段階的改善:
 
-- 利用可能になり次第、論文メタデータ（著者、掲載先、DOI/arXiv リンク）を追加
+- 利用可能になったら論文メタデータ（著者、掲載先、DOI / arXivリンク）を追加
 - 再現手順と環境ロックファイルを追加
-- 画像処理ワークフロー向けの実行可能スクリプト/ノートブックを追加
-- サンプルデータ参照先と想定ディレクトリ規約を追加
-- テスト/検証チェックと CI を追加
+- 画像処理ワークフロー向けの実行可能スクリプト / ノートブックを追加
+- サンプルデータの参照先と想定ディレクトリ規約を追加
+- テスト・検証チェックとCIを追加
 - `i18n/` 配下に多言語 README を公開
 
-## 引用
+## 📚 引用
 
-引用メタデータはまだリポジトリに含まれていません。
+引用メタデータはまだこのリポジトリに含まれていません。
 
-利用可能になったら、ここに BibTeX ブロックを追加し、論文バージョンと同期させてください。
+利用可能になったらここにBibTeXブロックを追加し、論文版と同期して維持してください。
 
-## コントリビューション
+## 🤝 Contributing
 
-実装ファイルと開発ワークフローが公開され次第、コントリビューションを歓迎します。
+実装ファイルと開発ワークフローが公開された後、貢献を歓迎します。
 
-推奨フロー（現時点のベストエフォート）:
+現在の推奨貢献フロー:
 
-1. リポジトリをフォークする。
-2. 機能ブランチを作成する。
-3. 焦点を絞った変更を、明確なコミットメッセージで行う。
-4. 動機・アプローチ・検証内容を説明した Pull Request を作成する。
+1. リポジトリをフォークします。
+2. 機能ブランチを作成します。
+3. 目的が明確な小規模な変更を、分かりやすいコミットメッセージで行います。
+4. 動機、アプローチ、検証内容を記載したプルリクエストを作成します。
 
-将来的にコントリビューションガイド（例: `CONTRIBUTING.md`）が追加された場合は、それを正としてください。
+後にガイドラインが追加された場合（例: `CONTRIBUTING.md`）、そのガイドラインを最優先で参照してください。
 
-## ライセンス
+## ⚖️ ライセンス
 
-このプロジェクトは Apache License 2.0 の下で提供されます。詳細は [LICENSE](../LICENSE) を参照してください。
+このプロジェクトは Apache License 2.0 の下でライセンスされています。詳細は [LICENSE](LICENSE) を参照してください。
 
-## 謝辞
+## 🙏 謝辞
 
-- 正準 README のリポジトリ目的記述: "Repo of paper Event-based Rapid Organoid Imaging"
+- 公式 README の目的文: "Repo of paper Event-based Rapid Organoid Imaging"
+
+
+## ❤️ Support
+
+| Donate | PayPal | Stripe |
+| --- | --- | --- |
+| [![Donate](https://camo.githubusercontent.com/24a4914f0b42c6f435f9e101621f1e52535b02c225764b2f6cc99416926004b7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d4c617a79696e674172742d3045413545393f7374796c653d666f722d7468652d6261646765266c6f676f3d6b6f2d6669266c6f676f436f6c6f723d7768697465)](https://chat.lazying.art/donate) | [![PayPal](https://camo.githubusercontent.com/d0f57e8b016517a4b06961b24d0ca87d62fdba16e18bbdb6aba28e978dc0ea21/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f50617950616c2d526f6e677a686f754368656e2d3030343537433f7374796c653d666f722d7468652d6261646765266c6f676f3d70617970616c266c6f676f436f6c6f723d7768697465)](https://paypal.me/RongzhouChen) | [![Stripe](https://camo.githubusercontent.com/1152dfe04b6943afe3a8d2953676749603fb9f95e24088c92c97a01a897b4942/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5374726970652d446f6e6174652d3633354246463f7374796c653d666f722d7468652d6261646765266c6f676f3d737472697065266c6f676f436f6c6f723d7768697465)](https://buy.stripe.com/aFadR8gIaflgfQV6T4fw400) |

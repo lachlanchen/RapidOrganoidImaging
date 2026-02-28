@@ -1,37 +1,41 @@
 [English](../README.md) · [العربية](README.ar.md) · [Español](README.es.md) · [Français](README.fr.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Tiếng Việt](README.vi.md) · [中文 (简体)](README.zh-Hans.md) · [中文（繁體）](README.zh-Hant.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
 
+
+[![LazyingArt banner](https://github.com/lachlanchen/lachlanchen/raw/main/figs/banner.png)](https://github.com/lachlanchen/lachlanchen/blob/main/figs/banner.png)
+
 # Rapid Organoid Imaging
 
-![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-![Project Type](https://img.shields.io/badge/Type-Paper%20Companion-informational)
-![Status](https://img.shields.io/badge/Status-Scaffolded-lightgrey)
-![Docs](https://img.shields.io/badge/Docs-README-brightgreen)
-![i18n](https://img.shields.io/badge/i18n-Enabled-00A86B)
+![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-2f80ed?style=flat-square&logo=apache)
+![Project Type](https://img.shields.io/badge/Type-Paper%20Companion-6366f1?style=flat-square&logo=readme)
+![Status](https://img.shields.io/badge/Status-Scaffolded-d97706?style=flat-square)
+![Docs](https://img.shields.io/badge/Docs-README-0f766e?style=flat-square&logo=github)
+![i18n](https://img.shields.io/badge/i18n-Enabled-0f766e?style=flat-square&logo=googletranslate)
+![Repository](https://img.shields.io/badge/Code-Scaffold%20Only-cbd5e1?style=flat-square)
 
-> Kho lưu trữ của bài báo Event-based Rapid Organoid Imaging.
+> Repo of paper Event-based Rapid Organoid Imaging.
 
-## Tổng quan
+## 🔍 Tổng quan
 
-Kho lưu trữ này hiện đóng vai trò là kho đi kèm cho bài báo **Event-based Rapid Organoid Imaging**.
+Kho này hiện tại là tài liệu đi kèm của bài báo **Event-based Rapid Organoid Imaging**.
 
-Tại thời điểm của bản nháp này, kho đã có giấy phép, quy tắc bỏ qua và khung tài liệu, nhưng vẫn chưa có mã nguồn được theo dõi, gói, script hoặc tài nguyên thí nghiệm.
+Tại thời điểm bản nháp hiện tại, repository chỉ chứa giấy phép, quy tắc ignore, và khung tài liệu; chưa có mã nguồn, gói, script hay tài nguyên thí nghiệm nào được theo dõi.
 
-| Ảnh chụp trạng thái | Trạng thái hiện tại |
+| Snapshot | Current State |
 |---|---|
-| Phạm vi | Kho lưu trữ đi kèm bài báo |
-| Thành phần chính | Khung tài liệu |
-| Tình trạng mã nguồn | Chưa có tệp triển khai nào được theo dõi |
-| Mức sẵn sàng đa ngôn ngữ | Thư mục `i18n/` đã tồn tại |
+| Phạm vi | Repository kèm theo bài báo |
+| Tài sản chính | Khung tài liệu |
+| Tính sẵn có mã | Chưa có file triển khai được theo dõi |
+| Đã sẵn sàng đa ngôn ngữ | Thư mục `i18n/` đã tồn tại |
 
-## Tính năng
+## ✨ Tính năng
 
-- Khung dự án chuẩn cho bài báo: *Event-based Rapid Organoid Imaging*.
-- Đã bao gồm giấy phép Apache 2.0.
-- Mẫu `.gitignore` theo định hướng Python, cho thấy khả năng sẽ dùng công cụ Python trong tương lai.
-- Có sẵn thư mục `i18n/` cho các biến thể README đa ngôn ngữ.
+- Mẫu dự án chuẩn cho bài báo: *Event-based Rapid Organoid Imaging*.
+- Bao gồm giấy phép Apache 2.0.
+- Mẫu `.gitignore` hướng Python, cho thấy khả năng sẽ có công cụ Python trong tương lai.
+- Thư mục `i18n/` có để chuẩn bị các phiên bản README đa ngôn ngữ.
 
-## Cấu trúc dự án
+## 🧱 Cấu trúc dự án
 
 ```text
 RapidOrganoidImaging/
@@ -43,121 +47,128 @@ RapidOrganoidImaging/
 ```
 
 Ghi chú:
-- `.auto-readme-work/` là không gian làm việc của pipeline và có thể chứa các tạo tác trợ giúp được sinh ra.
-- Các tệp hiện đang được theo dõi ở thư mục gốc là `README.md`, `LICENSE` và `.gitignore`.
-- `i18n/` đã tồn tại, nhưng các README theo từng ngôn ngữ có thể vẫn đang chờ được tạo.
+- `.auto-readme-work/` là không gian làm việc của pipeline và có thể chứa các artifact phụ trợ do công cụ tạo ra.
+- Các file được theo dõi tại root hiện tại gồm `README.md`, `LICENSE`, và `.gitignore`.
+- `i18n/` đã tồn tại, nhưng theo từng ngôn ngữ file README có thể vẫn đang chờ sinh ra.
 
-## Điều kiện tiên quyết
+## 🧰 Yêu cầu tiền đề
 
-Các điều kiện tối thiểu hiện tại:
+Yêu cầu tối thiểu hiện tại:
 
 - `git` (để clone và theo dõi cập nhật)
-- Tùy chọn: công cụ Python (`python`, `pip`, môi trường ảo) nếu/khi mã nguồn được thêm vào
+- Tùy chọn: công cụ Python (`python`, `pip`, môi trường ảo) nếu/ khi có code được thêm vào
 
-Hiện chưa có phụ thuộc runtime bắt buộc nào được khai báo trong các manifest đang được theo dõi.
+Hiện chưa có dependencies runtime bắt buộc nào được khai báo trong manifest theo dõi.
 
-## Cài đặt
+## ⬆️ Cài đặt
 
 ```bash
 git clone <your-repository-url>
 cd RapidOrganoidImaging
 ```
 
-Nếu/khi mã Python được thêm vào, một thiết lập môi trường điển hình có thể là:
+Nếu/ khi có thêm code Python, một cấu hình môi trường điển hình có thể là:
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 ```
 
-Ghi chú giả định: các lệnh cài phụ thuộc chưa được định nghĩa vì hiện chưa có manifest phụ thuộc nào được theo dõi.
+Ghi chú giả định: các lệnh cài dependency chưa được định nghĩa vì chưa có manifest dependency nào được theo dõi.
 
-## Cách sử dụng
+## 🚀 Cách dùng
 
-Hiện tại cách sử dụng ưu tiên tài liệu:
+Hiện tại việc sử dụng tập trung vào tài liệu:
 
-- Đọc phạm vi dự án và các cập nhật trong `README.md`.
-- Tham chiếu tiêu đề bài báo liên quan: **Event-based Rapid Organoid Imaging**.
-- Theo dõi các commit sắp tới bổ sung script tái lập, bộ dữ liệu hoặc mã model/inference.
+- Đọc phạm vi và các cập nhật của dự án trong `README.md`.
+- Tham khảo tiêu đề bài báo liên quan: **Event-based Rapid Organoid Imaging**.
+- Theo dõi các commit sắp tới để thêm scripts tái tạo, dữ liệu mẫu hoặc mã suy luận cho mô hình.
 
-Vì chưa có entrypoint thực thi nào được theo dõi, hiện chưa có lệnh chạy để cung cấp ở giai đoạn này.
+Vì chưa theo dõi entrypoint nào có thể chạy, nên chưa có lệnh chạy chính thức ở giai đoạn này.
 
-## Cấu hình
+## 🛠️ Cấu hình
 
-Hiện chưa có tệp cấu hình nào được định nghĩa (ví dụ chưa có `.env.example`, `config.yaml`, hoặc schema đối số CLI trong mã được theo dõi).
+Hiện chưa có file cấu hình nào được định nghĩa (ví dụ: không có `.env.example`, `config.yaml`, hay schema tham số CLI trong code được theo dõi).
 
-Khi cấu hình được đưa vào, mục này nên mô tả:
+Khi cấu hình được bổ sung, phần này nên mô tả:
 
-- Các biến môi trường bắt buộc
-- Đường dẫn dataset/đầu vào
+- Biến môi trường bắt buộc
+- Đường dẫn dữ liệu đầu vào/data
 - Vị trí đầu ra
-- Tùy chọn phần cứng/runtime
+- Tùy chọn phần cứng/môi trường chạy
 
-## Ví dụ
+## 🧪 Ví dụ
 
-Hiện chưa có ví dụ thực thi nào được thêm vào kho.
+Hiện chưa có ví dụ thực thi nào được check-in.
 
-Các nhóm ví dụ dự kiến (sẽ được bổ sung khi có mã):
+Các nhóm ví dụ dự kiến (sẽ được điền khi có code):
 
-- Chuẩn bị / nạp dữ liệu
+- Chuẩn bị/tải dữ liệu
 - Xử lý luồng sự kiện
-- Quy trình suy luận hoặc phân tích ảnh organoid
+- Quy trình suy luận hoặc phân tích hình ảnh Organoid
 - Trực quan hóa/xuất kết quả
 
-## Ghi chú phát triển
+## 🧩 Ghi chú phát triển
 
-- `.gitignore` hiện có là mẫu Python tương đối đầy đủ và đã bỏ qua các tạo tác virtualenv/build/test phổ biến.
-- Chưa có workflow CI, cấu hình formatter, hoặc bộ test nào được theo dõi.
-- `i18n/` đã tồn tại và sẵn sàng cho các README theo từng ngôn ngữ.
+- `.gitignore` hiện có dạng template Python rộng và đã bỏ qua sẵn các artifacts ảo build/test phổ biến.
+- Chưa có CI workflow, cấu hình formatter, hay test suite nào được theo dõi.
+- `i18n/` đã tồn tại và đã sẵn sàng cho file README riêng từng ngôn ngữ.
 
-## Khắc phục sự cố
+## 🛠️ Khắc phục sự cố
 
-### Tôi đã clone repo nhưng không có mã nguồn
+### Tôi đã clone repo nhưng không thấy code
 
-Đây là trạng thái dự kiến ở hiện tại. Kho lưu trữ hiện đang hoạt động như một khung đi kèm bài báo.
+Đây là hành vi dự kiến trong trạng thái hiện tại của repository. Repository hiện tại vận hành như một khung tài liệu kèm bài báo.
 
-### Liên kết ngôn ngữ trỏ tới tệp có thể chưa tồn tại
+### Liên kết ngôn ngữ trỏ tới file chưa tồn tại
 
-Điều này có thể xảy ra trước khi các README đa ngôn ngữ được tạo. Dòng điều hướng ngôn ngữ được giữ lại có chủ đích để đảm bảo cấu trúc i18n nhất quán.
+Hiện tượng này có thể xảy ra trước khi các file README đa ngôn ngữ được sinh ra đầy đủ. Dòng điều hướng ngôn ngữ được giữ lại nhằm duy trì cấu trúc i18n nhất quán.
 
-### Tôi không tìm thấy yêu cầu cài đặt
+### Không tìm thấy requirements để cài đặt
 
-Hiện chưa có manifest phụ thuộc nào được theo dõi (ví dụ `requirements.txt`, `pyproject.toml`, hoặc `environment.yml`).
+Hiện chưa có manifest dependency nào được theo dõi (ví dụ `requirements.txt`, `pyproject.toml`, hoặc `environment.yml`).
 
-## Lộ trình
+## 🧭 Lộ trình
 
-Các cải tiến tăng dần được lên kế hoạch:
+Kế hoạch cải tiến theo từng bước:
 
-- Bổ sung metadata bài báo (tác giả, venue, liên kết DOI/arXiv) khi có sẵn
-- Bổ sung hướng dẫn tái lập và các tệp khóa môi trường
-- Bổ sung script/notebook có thể chạy cho quy trình imaging
-- Bổ sung chỉ dẫn dữ liệu mẫu và quy ước thư mục dự kiến
-- Bổ sung kiểm thử/kiểm định và CI
-- Xuất bản README đa ngôn ngữ trong `i18n/`
+- Thêm metadata bài báo (tác giả, địa điểm công bố, DOI/arXiv) khi có sẵn
+- Thêm hướng dẫn tái lập và file khóa môi trường
+- Thêm scripts/notebooks chạy được cho quy trình imaging
+- Thêm các tham chiếu dữ liệu mẫu và quy ước tên thư mục mong đợi
+- Thêm kiểm thử/kiểm tra xác thực và CI
+- Công bố file README đa ngôn ngữ trong `i18n/`
 
-## Trích dẫn
+## 📚 Trích dẫn
 
-Metadata trích dẫn hiện chưa được đưa vào kho lưu trữ.
+Metadata trích dẫn chưa được đưa vào repository.
 
-Khi có sẵn, hãy thêm khối BibTeX ở đây và giữ đồng bộ với phiên bản bài báo.
+Khi có sẵn, thêm một khối BibTeX tại đây và giữ đồng bộ với phiên bản bài báo.
 
-## Đóng góp
+## 🤝 Đóng góp
 
-Rất hoan nghênh đóng góp sau khi các tệp triển khai và quy trình phát triển được công bố.
+Đóng góp được chào đón khi các file triển khai và quy trình phát triển đã được công bố.
 
-Luồng đóng góp được khuyến nghị (mức best-effort hiện tại):
+Quy trình đóng góp đề xuất (theo mức khả thi hiện tại):
 
-1. Fork kho lưu trữ.
-2. Tạo nhánh tính năng.
-3. Thực hiện thay đổi có phạm vi rõ ràng với thông điệp commit minh bạch.
-4. Mở pull request mô tả động lực, cách tiếp cận và xác thực.
+1. Fork repository.
+2. Tạo nhánh feature.
+3. Thực hiện thay đổi tập trung với commit message rõ ràng.
+4. Tạo pull request mô tả lý do, phương pháp và cách xác thực.
 
-Nếu sau này có hướng dẫn đóng góp (ví dụ `CONTRIBUTING.md`), hãy tuân theo đó như nguồn sự thật.
+Nếu sau này có thêm tài liệu đóng góp (ví dụ `CONTRIBUTING.md`), hãy theo tài liệu đó như chuẩn mực.
 
-## Giấy phép
+## ⚖️ Giấy phép
 
-Dự án này được cấp phép theo Apache License 2.0. Xem [LICENSE](../LICENSE).
+Dự án này được cấp phép theo Apache License 2.0. Xem [LICENSE](LICENSE).
 
-## Lời cảm ơn
+## 🙏 Lời cảm ơn
 
-- Tuyên bố mục đích kho lưu trữ từ README chuẩn: "Repo of paper Event-based Rapid Organoid Imaging"
+- Tuyên bố mục đích repository từ README chuẩn: "Repo of paper Event-based Rapid Organoid Imaging"
+
+
+## ❤️ Support
+
+| Donate | PayPal | Stripe |
+| --- | --- | --- |
+| [![Donate](https://camo.githubusercontent.com/24a4914f0b42c6f435f9e101621f1e52535b02c225764b2f6cc99416926004b7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d4c617a79696e674172742d3045413545393f7374796c653d666f722d7468652d6261646765266c6f676f3d6b6f2d6669266c6f676f436f6c6f723d7768697465)](https://chat.lazying.art/donate) | [![PayPal](https://camo.githubusercontent.com/d0f57e8b016517a4b06961b24d0ca87d62fdba16e18bbdb6aba28e978dc0ea21/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f50617950616c2d526f6e677a686f754368656e2d3030343537433f7374796c653d666f722d7468652d6261646765266c6f676f3d70617970616c266c6f676f436f6c6f723d7768697465)](https://paypal.me/RongzhouChen) | [![Stripe](https://camo.githubusercontent.com/1152dfe04b6943afe3a8d2953676749603fb9f95e24088c92c97a01a897b4942/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5374726970652d446f6e6174652d3633354246463f7374796c653d666f722d7468652d6261646765266c6f676f3d737472697065266c6f676f436f6c6f723d7768697465)](https://buy.stripe.com/aFadR8gIaflgfQV6T4fw400) |

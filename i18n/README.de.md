@@ -1,37 +1,41 @@
 [English](../README.md) · [العربية](README.ar.md) · [Español](README.es.md) · [Français](README.fr.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Tiếng Việt](README.vi.md) · [中文 (简体)](README.zh-Hans.md) · [中文（繁體）](README.zh-Hant.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
 
+
+[![LazyingArt banner](https://github.com/lachlanchen/lachlanchen/raw/main/figs/banner.png)](https://github.com/lachlanchen/lachlanchen/blob/main/figs/banner.png)
+
 # Rapid Organoid Imaging
 
-![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-![Project Type](https://img.shields.io/badge/Type-Paper%20Companion-informational)
-![Status](https://img.shields.io/badge/Status-Scaffolded-lightgrey)
-![Docs](https://img.shields.io/badge/Docs-README-brightgreen)
-![i18n](https://img.shields.io/badge/i18n-Enabled-00A86B)
+![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-2f80ed?style=flat-square&logo=apache)
+![Project Type](https://img.shields.io/badge/Type-Paper%20Companion-6366f1?style=flat-square&logo=readme)
+![Status](https://img.shields.io/badge/Status-Scaffolded-d97706?style=flat-square)
+![Docs](https://img.shields.io/badge/Docs-README-0f766e?style=flat-square&logo=github)
+![i18n](https://img.shields.io/badge/i18n-Enabled-0f766e?style=flat-square&logo=googletranslate)
+![Repository](https://img.shields.io/badge/Code-Scaffold%20Only-cbd5e1?style=flat-square)
 
-> Repository des Papers Event-based Rapid Organoid Imaging.
+> Repo of paper Event-based Rapid Organoid Imaging.
 
-## Überblick
+## 🔍 Overview
 
-Dieses Repository dient derzeit als Begleit-Repository zum Paper **Event-based Rapid Organoid Imaging**.
+Dieses Repository ist derzeit ein Begleit-Repository für **Event-based Rapid Organoid Imaging**.
 
-Zum Zeitpunkt dieses Entwurfs enthält das Repository Lizenzdateien, Ignore-Regeln und ein Dokumentationsgerüst, jedoch noch keinen versionierten Quellcode, keine Pakete, keine Skripte und keine Experiment-Assets.
+Zum Zeitpunkt dieses Entwurfs enthält das Repository Lizenzangaben, Ignore-Regeln und ein Dokumentationsgerüst, aber noch keinen versionierten Quellcode, keine Pakete, Skripte oder Experimentressourcen.
 
-| Snapshot | Aktueller Stand |
+| Snapshot | Current State |
 |---|---|
-| Umfang | Begleit-Repository zum Paper |
-| Primäres Artefakt | Dokumentationsgerüst |
-| Code-Verfügbarkeit | Noch keine versionierten Implementierungsdateien |
-| Mehrsprachige Bereitschaft | Verzeichnis `i18n/` ist vorhanden |
+| Scope | Paper companion repository |
+| Primary artifact | Documentation scaffold |
+| Code availability | No tracked implementation files yet |
+| Multilingual readiness | `i18n/` directory exists |
 
-## Features
+## ✨ Features
 
-- Kanonischer Projekt-Stub für das Paper: *Event-based Rapid Organoid Imaging*.
-- Apache-2.0-Lizenz ist enthalten.
-- Python-orientierte `.gitignore`-Vorlage, die auf zukünftiges Python-Tooling hindeutet.
-- Verzeichnis `i18n/` ist für mehrsprachige README-Varianten vorhanden.
+- Standardisiertes Projektgerüst für das Paper: *Event-based Rapid Organoid Imaging*.
+- Apache 2.0-Lizenz ist enthalten.
+- Python-orientierte `.gitignore`-Vorlage, die auf eine zukünftige Python-Tooling-Nutzung hindeutet.
+- `i18n/`-Verzeichnis für mehrsprachige README-Varianten ist vorhanden.
 
-## Projektstruktur
+## 🧱 Project Structure
 
 ```text
 RapidOrganoidImaging/
@@ -45,119 +49,126 @@ RapidOrganoidImaging/
 Hinweise:
 - `.auto-readme-work/` ist ein Pipeline-Arbeitsbereich und kann generierte Hilfsartefakte enthalten.
 - Versionierte Dateien im Repository-Root sind derzeit `README.md`, `LICENSE` und `.gitignore`.
-- `i18n/` ist vorhanden, aber sprachspezifische README-Dateien können noch ausstehen.
+- `i18n/` ist vorhanden, aber pro Sprache erstellte README-Dateien können noch ausstehen.
 
-## Voraussetzungen
+## 🧰 Voraussetzungen
 
 Aktuelle Mindestvoraussetzungen:
 
-- `git` (zum Klonen und Nachverfolgen von Updates)
-- Optional: Python-Tooling (`python`, `pip`, virtuelle Umgebungen), falls/wenn Code hinzugefügt wird
+- `git` (zum Klonen und Verfolgen von Änderungen)
+- Optional: Python-Tooling (`python`, `pip`, virtuelle Umgebungen), falls später Code ergänzt wird
 
-Strikte Laufzeitabhängigkeiten sind in versionierten Manifesten noch nicht deklariert.
+Es sind noch keine strengen Laufzeitabhängigkeiten in nachverfolgten Manifesten festgelegt.
 
-## Installation
+## ⬆️ Installation
 
 ```bash
 git clone <your-repository-url>
 cd RapidOrganoidImaging
 ```
 
-Falls/wenn Python-Code hinzugefügt wird, könnte eine typische Umgebungs-Einrichtung so aussehen:
+Falls/Wenn Python-Code ergänzt wird, könnte eine typische Umgebungseinrichtung so aussehen:
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 ```
 
-Annahme-Hinweis: Befehle zur Abhängigkeitsinstallation sind noch nicht definiert, da derzeit kein Abhängigkeits-Manifest versioniert ist.
+Hinweis: Installationsbefehle für Abhängigkeiten sind noch nicht definiert, da aktuell kein Abhängigkeitsmanifest versioniert ist.
 
-## Nutzung
+## 🚀 Nutzung
 
-Die aktuelle Nutzung ist dokumentationsorientiert:
+Die aktuelle Nutzung ist dokumentationszentriert:
 
-- Lies Projektumfang und Updates in `README.md`.
-- Beziehe dich auf den Titel des zugehörigen Papers: **Event-based Rapid Organoid Imaging**.
-- Achte auf kommende Commits, die reproduzierbare Skripte, Datensätze oder Modell-/Inferenzcode hinzufügen.
+- Lies den Projektumfang und Updates in `README.md`.
+- Beachte den zugehörigen Paper-Titel: **Event-based Rapid Organoid Imaging**.
+- Achte auf bevorstehende Commits, die reproduzierbare Skripte, Datensätze oder Modell-/Inferenzcode hinzufügen.
 
-Da noch keine ausführbaren Entry-Points versioniert sind, gibt es in diesem Stadium keinen Run-Befehl.
+Da noch keine ausführbaren Einstiegspunkte versioniert sind, gibt es in diesem Stadium keinen auszuführenden Befehl.
 
-## Konfiguration
+## 🛠️ Konfiguration
 
-Derzeit sind keine Konfigurationsdateien definiert (zum Beispiel keine `.env.example`, keine `config.yaml` und kein CLI-Arguments-Schema in versioniertem Code).
+Derzeit sind keine Konfigurationsdateien definiert (zum Beispiel keine `.env.example`, `config.yaml` oder CLI-Argument-Schema im versionierten Code).
 
-Wenn Konfiguration eingeführt wird, sollte dieser Abschnitt dokumentieren:
+Wenn Konfigurationsdateien eingeführt werden, sollte dieser Abschnitt dokumentieren:
 
 - Erforderliche Umgebungsvariablen
 - Datensatz-/Eingabepfade
-- Ausgabeorte
-- Hardware-/Runtime-Optionen
+- Ausgabepfade
+- Hardware-/Laufzeitoptionen
 
-## Beispiele
+## 🧪 Beispiele
 
-Derzeit sind noch keine ausführbaren Beispiele eingecheckt.
+Es sind noch keine ausführbaren Beispiele eingecheckt.
 
 Geplante Beispielkategorien (werden ergänzt, sobald Code vorhanden ist):
 
-- Datenvorbereitung / Laden
-- Verarbeitung von Event-Streams
-- Inferenz- oder Analyse-Workflow für Organoid-Bildgebung
-- Visualisierung/Export von Ergebnissen
+- Datenvorbereitung/-laden
+- Event-Stream-Verarbeitung
+- Organoid-Bildgebungs-Inferenz oder Analyse-Workflow
+- Ergebnisvisualisierung/-Export
 
-## Entwicklungshinweise
+## 🧩 Entwicklungshinweise
 
-- Die vorhandene `.gitignore` ist eine breite Python-Vorlage und ignoriert bereits gängige Virtualenv-/Build-/Test-Artefakte.
-- Es sind noch kein CI-Workflow, keine Formatter-Konfiguration und keine Testsuite versioniert.
-- `i18n/` ist vorhanden und bereit für sprachspezifische README-Dateien.
+- Die vorhandene `.gitignore` ist eine umfangreiche Python-Vorlage und ignoriert bereits gängige Artefakte wie Virtualenv-/Build-/Test-Dateien.
+- Es existiert noch kein CI-Workflow, keine Formatierungs-Konfiguration und keine Test-Suite im Versionsbestand.
+- `i18n/` ist vorhanden und bereit für Sprach-READMEs.
 
-## Fehlerbehebung
+## 🛠️ Fehlerbehebung
 
-### Ich habe das Repository geklont, aber es gibt keinen Code
+### Ich habe das Repo geklont, aber es gibt keinen Code
 
-Das ist im aktuellen Repository-Zustand erwartbar. Das Repository dient derzeit als Begleitgerüst zum Paper.
+Das ist im aktuellen Repository-Stand zu erwarten. Das Repository fungiert derzeit als Scaffold für das Paper.
 
-### Sprachlinks zeigen auf Dateien, die möglicherweise noch nicht existieren
+### Sprachlinks verweisen auf Dateien, die noch nicht existieren
 
-Das kann passieren, bevor mehrsprachige README-Dateien generiert sind. Die Sprach-Navigationszeile bleibt absichtlich erhalten, um eine konsistente i18n-Struktur zu gewährleisten.
+Das kann vorkommen, bevor die mehrsprachigen README-Dateien vollständig generiert wurden. Die Sprach-Navigationszeile bleibt bewusst erhalten, um eine konsistente i18n-Struktur zu gewährleisten.
 
 ### Ich finde keine Installationsanforderungen
 
-Es ist noch kein Abhängigkeits-Manifest versioniert (zum Beispiel `requirements.txt`, `pyproject.toml` oder `environment.yml`).
+Noch ist kein Abhängigkeitsmanifest versioniert (zum Beispiel `requirements.txt`, `pyproject.toml` oder `environment.yml`).
 
-## Roadmap
+## 🧭 Roadmap
 
 Geplante inkrementelle Verbesserungen:
 
-- Paper-Metadaten hinzufügen (Autor:innen, Venue, DOI/arXiv-Link), sobald verfügbar
+- Paper-Metadaten hinzufügen (Autoren, Konferenzort, DOI/arXiv-Link), sobald verfügbar
 - Reproduzierbarkeitsanweisungen und Environment-Lockfiles hinzufügen
-- Ausführbare Skripte/Notebooks für den Imaging-Workflow hinzufügen
-- Verweise auf Beispieldaten und erwartete Verzeichnis-Konventionen hinzufügen
-- Tests/Validierungsprüfungen und CI hinzufügen
+- Ausführbare Skripte/Notebooks für den Imaging-Workflow ergänzen
+- Hinweise auf Beispieldaten und erwartete Verzeichniskonventionen hinzufügen
+- Tests/Validierungsprüfungen und CI ergänzen
 - Mehrsprachige README-Dateien unter `i18n/` veröffentlichen
 
-## Zitation
+## 📚 Zitation
 
 Zitationsmetadaten sind im Repository noch nicht enthalten.
 
-Sobald verfügbar, füge hier einen BibTeX-Block ein und halte ihn mit der Paper-Version synchron.
+Wenn verfügbar, füge hier einen BibTeX-Block ein und halte ihn mit der Paper-Version synchron.
 
-## Mitwirken
+## 🤝 Mitwirken
 
 Beiträge sind willkommen, sobald Implementierungsdateien und Entwicklungs-Workflows veröffentlicht sind.
 
-Empfohlener Beitragsablauf (aktueller Best Effort):
+Empfohlener Beitragsablauf (derzeitiger Best-Effort-Prozess):
 
-1. Forke das Repository.
-2. Erstelle einen Feature-Branch.
-3. Nimm fokussierte Änderungen mit klaren Commit-Messages vor.
-4. Öffne einen Pull Request, der Motivation, Ansatz und Validierung beschreibt.
+1. Forken des Repositories.
+2. Erstellen eines Feature-Branches.
+3. Vornahme fokussierter Änderungen mit klaren Commit-Nachrichten.
+4. Öffnen eines Pull Requests mit Motivation, Ansatz und Validierung.
 
-Falls später Beitragsrichtlinien ergänzt werden (zum Beispiel `CONTRIBUTING.md`), folge diesen als maßgeblicher Quelle.
+Wenn später Beitragsrichtlinien ergänzt werden (zum Beispiel `CONTRIBUTING.md`), folge diesen als maßgebliche Quelle.
 
-## Lizenz
+## ⚖️ Lizenz
 
 Dieses Projekt ist unter der Apache License 2.0 lizenziert. Siehe [LICENSE](../LICENSE).
 
-## Danksagung
+## 🙏 Danksagung
 
-- Zweckbeschreibung des Repositories aus der kanonischen README: "Repo of paper Event-based Rapid Organoid Imaging"
+- Repository-Zweckbeschreibung aus der kanonischen README: "Repo of paper Event-based Rapid Organoid Imaging"
+
+
+## ❤️ Support
+
+| Donate | PayPal | Stripe |
+| --- | --- | --- |
+| [![Donate](https://camo.githubusercontent.com/24a4914f0b42c6f435f9e101621f1e52535b02c225764b2f6cc99416926004b7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d4c617a79696e674172742d3045413545393f7374796c653d666f722d7468652d6261646765266c6f676f3d6b6f2d6669266c6f676f436f6c6f723d7768697465)](https://chat.lazying.art/donate) | [![PayPal](https://camo.githubusercontent.com/d0f57e8b016517a4b06961b24d0ca87d62fdba16e18bbdb6aba28e978dc0ea21/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f50617950616c2d526f6e677a686f754368656e2d3030343537433f7374796c653d666f722d7468652d6261646765266c6f676f3d70617970616c266c6f676f436f6c6f723d7768697465)](https://paypal.me/RongzhouChen) | [![Stripe](https://camo.githubusercontent.com/1152dfe04b6943afe3a8d2953676749603fb9f95e24088c92c97a01a897b4942/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5374726970652d446f6e6174652d3633354246463f7374796c653d666f722d7468652d6261646765266c6f676f3d737472697065266c6f676f436f6c6f723d7768697465)](https://buy.stripe.com/aFadR8gIaflgfQV6T4fw400) |
